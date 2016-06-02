@@ -5,6 +5,11 @@
 
 # Declare characters used by this game.
 define e = Character('Eileen', color="#c8ffc8")
+define ash = Character('Ashley', color="#ffffff")
+define jul = Character('Julia', color="#9900cc")
+define dyl = Character('Dylan', color="#336600")
+define nat = Character('Natalya', color="#800000")
+define har = Character('Haruka', color="#0033cc")
 
 
 # The game starts here.
