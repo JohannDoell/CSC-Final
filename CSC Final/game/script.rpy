@@ -8,6 +8,7 @@ define e = Character('Eileen', color="#c8ffc8")
 define ash = Character('Ashley', color="#ffffff")
 define jul = Character('Julia', color="#9900cc")
 define dyl = Character('Dylan', color="#336600")
+define ken = Character('Kendra', color="#cc0066")
 define nat = Character('Natalya', color="#800000")
 define har = Character('Haruka', color="#0033cc")
 
@@ -15,8 +16,16 @@ define har = Character('Haruka', color="#0033cc")
 # The game starts here.
 label start:
 
-    e "You've created a new Ren'Py game."
+    ash "Hello! I'm Ashley!"
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    jul "I'm Julia. Ugh."
+    
+    dyl "I'm Dylan! I think."
+    
+    ken "And I'm... Kendra."
+    
+    nat "I am Lieutenant Natalya Ivanovich."
+    
+    har "Watashi wa Haruka desu!"
 
     return
