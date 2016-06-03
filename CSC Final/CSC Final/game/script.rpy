@@ -104,8 +104,45 @@ label start:
     nat "Come, sit with us at table."
     ash "Uh… Alright."
 
-                 
-                 
+    nat "These are comrades-"
+    "???" "I can introduce myself! I’m Julia."
+    dyl "I-"
+    jul "And this is my boyfriend, Dylan."
+    jul "Aren’t you that girl that was hitting on my boyfriend?"
+    ash "Uh...No, no, it was nothing like that."
+    "???" "I’m Kendra, by the way."
+    jul "No one cares, Kendra!"
+    "Everyone" "…"
+    ash "(Maybe I should introduce myself?)"
+
+    menu:
+        ash "(Maybe I should introduce myself?)"
+        
+        "Introduce yourself.":
+            ash "Well, I’m Ashley!"
+            jul "You’re going to fit in just great!"
+            ash "Thanks, Julia…"
+        "Don’t introduce yourself.":
+            "Everyone" "..."
+            "Everyone" "... ... "
+            "Everyone" "... ... ..."
+            dyl "Her name is Ashley."
+            ken "Neato."
+            "Everyone" "..."
+            "Everyone" "... ..."
+            "Everyone" "... ... ..."
+
+    jul "Alright, Dylan, let’s go!"
+    dyl "Oka-"
+    ken "So, Ashley, do you want to join us for shopping later today?"
+    har "Please join us, senpai!"
+    nat "Yes, comrade. Join the revolution."
+    ash "What."
+    nat "I mean, join us shopping…"
+    nat "Comrade."
+    ash "Sure…"
+    ken "Sounds great!"
+
                  
                  
                  
