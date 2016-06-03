@@ -2,6 +2,7 @@
 
 # Declare images below this line, using the image statement.
 image bg schoolentrance = "TheSchool.jpg"
+image bg cafeteriafront = "cafeteriafront.jpg"
 
 # Declare characters used by this game.
 define ash = Character('Ashley', color="#ffffff")
@@ -76,9 +77,33 @@ label start:
     ash "(...)"
     ash "(I should stop.)"
                  
-                 
-                 
-                 
+    show bg cafeteriafront
+    with dissolve
+
+    ash "Hey, this place looks pretty white for Harriet Tubman Academy in Lubbock, Texas."
+    ash "…"
+    ash "Oh well, at least they sell burgers."
+    "???" "Ohayou!"
+    ash "What."
+    "???" "Konichiwa! I’d like to get the special!"
+    "Lunch Lady" "Comin’ right up, sweetie."
+    "???" "Arigato!"
+    ash "Hey, I thought this was an American school."
+    "???" "Eeeehhhh? But it is, senpai!"
+    "???" "It’s an American and Japanese school!"
+    ash "What."
+    "???" "Haruka, why are you annoying our new comrade?"
+    har "S-senpai! Gomenasai!"
+    ash "…"
+    ash "WHAT."
+    "???" "I apologize for my… friend’s behaviour, comrade."
+    "???" "I am Lieutenant Natalya Ivanovich."
+    ash "…"
+    ash "HOW?"
+    nat "I see you are experiencing breakdown, comrade."
+    nat "Come, sit with us at table."
+    ash "Uh… Alright."
+
                  
                  
                  
