@@ -3,6 +3,9 @@
 # Declare images below this line, using the image statement.
 image bg schoolentrance = "TheSchool.jpg"
 image bg cafeteriafront = "cafeteriafront.jpg"
+image bg bedroom = "bedroom.jpg"
+image bg mall = "mall.jpg"
+image bg dresses = "dressshop.jpg"
 
 # Declare characters used by this game.
 define ash = Character('Ashley', color="#ffffff")
@@ -141,6 +144,9 @@ label start:
 
 label shopping:
 
+    show bg bedroom
+    with dissolve
+
     ash "Boy oh boy, it sure is a nice Monday evening. Here in Lubbock, Texas."
     "???" "Honk honk."
     "???" "Get in loser, we’re going shopping!"
@@ -156,6 +162,9 @@ label shopping:
     "Everyone" "..."
     jul "Come on, let’s go already!"
 
+    show bg mall
+    with dissolve
+
     jul "Okay, girls, let’s go!"
     nat "Where to first, comrade?"
     ken "Why not Victoria’s Secret?"
@@ -170,6 +179,9 @@ label shopping:
     ash "Is that a good thing?"
     jul "Duh."
     nat "Da."
+
+    show bg dresses
+    with dissolve
 
     jul "Isn’t this dress I got, like, great?!"
     ken "Sure."
@@ -245,6 +257,7 @@ label shopping:
         jul "Too bad you won’t be alive to make it."
         ash "What??"
         ash "OH GOD WHAT."
+        play sound "gunshot.mp3"
         har "SENPAIIIII!!!"
         nat "COMRAAAAADE!!!"
         jul "Good riddance."
@@ -368,6 +381,7 @@ label thursday:
             nat "Glorious Russian battle tactics!"
             nat "Now face full power of Russian Federation!"
             ash "WHAT IS THIS PLACE?"
+            play sound "gunshot.mp3"
             "Bang."
             jump end
         "Don’t tell.":
