@@ -2,8 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 124: is not terminated with a newline. (Check strings and parenthesis.)
-(Perhaps you left out a " at the end of the first line.)
-                ash Thanks, Julia…"
+File "game/script.rpy", line 238: expected statement.
+    [exit jul]
+              ^
 
 Ren'Py Version: Ren'Py 6.99.10.1227

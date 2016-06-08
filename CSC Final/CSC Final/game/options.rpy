@@ -35,42 +35,42 @@ init -1 python hide:
 
     theme.regal(
         ## Theme: Regal
-        ## Color scheme: Colorblind
+        ## Color scheme: Basic Blue
 
         ## The color of an idle widget face.
-        widget = "#898989",
+        widget = "#003c78",
 
         ## The color of a focused widget face.
-        widget_hover = "#464646",
+        widget_hover = "#0050a0",
 
         ## The color of the text in a widget.
-        widget_text = "#CCCCCC",
+        widget_text = "#c8ffff",
 
         ## The color of the text in a selected widget. (For
         ## example, the current value of a preference.)
-        widget_selected = "#F2F2F2",
+        widget_selected = "#ffffc8",
 
         ## The color of a disabled widget face.
-        disabled = "#898989",
+        disabled = "#404040",
 
         ## The color of disabled widget text.
-        disabled_text = "#666666",
+        disabled_text = "#c8c8c8",
 
         ## The color of informational labels.
-        label = "#c2c2c2",
+        label = "#ffffff",
 
         ## The color of a frame containing widgets.
-        frame = "#252525",
+        frame = "#6496c8",
 
         ## The background of the main menu. This can be a color
         ## beginning with '#', or an image filename. The latter
         ## should take up the full height and width of the screen.
-        mm_root = "#393939",
+        mm_root = "#dcebff",
 
         ## The background of the game menu. This can be a color
         ## beginning with '#', or an image filename. The latter
         ## should take up the full height and width of the screen.
-        gm_root = "#393939",
+        gm_root = "#dcebff",
 
         ## If this is True, the in-game window is rounded. If False,
         ## the in-game window is square.
