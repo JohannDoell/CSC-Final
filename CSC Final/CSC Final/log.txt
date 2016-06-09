@@ -1629,4 +1629,5 @@ Init translation took 0.05s
 Build styles took 0.00s
 Load screen analysis took 0.02s
 Analyze screens took 0.00s
-Prepare screens
+Prepare screens took 0.00s
+Running _start took 0.00s
