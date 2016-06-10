@@ -6,6 +6,12 @@ image bg cafeteriafront = "cafeteriafront.jpg"
 image bg bedroom = "bedroom.jpg"
 image bg mall = "mall.jpg"
 image bg dresses = "dressshop.jpg"
+image bg japaneseroom = "japaneseroom.jpg"
+image bg calculusroom = "calculusroom.jpg"
+image bg clownroom = "clownroom.jpg"
+image bg stairs = "stairs.jpg"
+image bg artroom = "artroom.png"
+image bg party = "party.jpg"
 
 # Declare characters used by this game.
 define ash = Character('Ashley', color="#ffffff")
@@ -268,6 +274,9 @@ label shopping:
 
 label classes:
 
+    show bg japaneseroom
+    with dissolve
+
     "Neko-sensei" "Good morning, nyan. Welcome to Japanese History."
     ash "What."
     "Neko-sensei" "I said, WELCOME TO JAPANESE HISTORY."
@@ -280,11 +289,17 @@ label classes:
     har "Senpai! That’s racist!"
     ash "(What is this place…)"
 
+    show bg calculusroom
+    with dissolve
+
     "Tako-sensei" "Good morning, squish squish. Welcome to Calculus 30!"
     ash "WHY IS OUR TEACHER AN OCTOPUS."
     ken "I dunno."
     jul "DON’T QUESTION THE GREAT TAKO-SENSEI."
     ash "I hate this school."
+
+    show bg clownroom
+    with dissolve
 
     ash "Oh, thank God. We finally have a human teacher."
     "Sensei-sensei" "Hello, class! Welcome to Advanced Clown Car Repair!"
@@ -293,7 +308,6 @@ label classes:
     ash "WHY WOULD I HAVE A CLOWN CAR?"
     dyl "Why wouldn’t you have one?"
     ash "WHAT THE-"
-    dyl "I’ve learned to just go with it by now."
     ash "WHY."
     ash "JUST WHY."
     "Sensei-sensei" "And this is your typical clown car."
@@ -303,6 +317,9 @@ label classes:
     ash "WHAT?"
     "Sensei-sensei" "The first step is to open up the hood here…"
     ash "(Ugh………)"
+
+    show bg cafeteriafront
+    with dissolve
 
     nat "COMRADE! COME AND DRINK VODKA WITH US."
     ash "WHY. IS THERE VODKA. AT A HIGH SCHOOL"
@@ -314,21 +331,24 @@ label classes:
     "Everyone" "…"
     nat "I am going to step out for a second."
     har "Wait for me, senpai!"
-    "Everyone" "…"
-    "Everyone" "…"
-    "Everyone" "…"
+    "Everyone" "..."
+    "Everyone" "... ..."
+    "Everyone" "... ... ..."
     ash "(This is boring…)"
     jul "So, nice weather we’re having...?"
     jul "Am I right, ladies?"
-    "Everyone" "…"
-    "Everyone" "…"
-    "Everyone" "…"
+    "Everyone" "..."
+    "Everyone" "... ..."
+    "Everyone" "... ... ..."
 
 label painting:
 
     ash "I’m gonna head to class now."
     jul "Bye, girlfriend!"
     ken "Uh... bye."
+
+    show bg stairs
+    with dissolve
 
     nat "Oh my goodness, you are so beautiful."
     nat "Beautiful like glorious Russian battle tank."
@@ -338,6 +358,10 @@ label painting:
     nat "A little bit to the left...Yes, that is perfect!"
     ash "(Oh god what could they be doing?)"
     ash "Peeeeeek."
+
+    show bg artroom
+    with dissolve
+
     ash "Oh. You guys are just painting."
     nat "Comrade! You should not be here!"
     ash "Why? You guys are just painting!"
@@ -367,6 +391,9 @@ label painting:
 
 label thursday:
 
+    show bg cafeteriafront
+    with dissolve
+
     ash "Wow. I can’t believe it’s Thursday already. It felt like time instantaneously jumped from Monday’s lunch to now."
     ash" Huh."
     jul "What were Natalya and Haruka doing!?"
@@ -389,6 +416,9 @@ label thursday:
             jul "Lol ok."
 
 label party:
+
+    show bg party
+    with dissolve
 
     ash "How did I get here."
     ash "How lazy are the writers?"
