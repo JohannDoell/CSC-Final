@@ -1,0 +1,21 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 94, in script
+    return
+Exception: Could not find return label (u'M:\\CSC-Final\\CSC Final\\CSC Final/game/script.rpy', 1464982341, 11).
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 94, in script
+    return
+  File "C:\Users\0401787\Desktop\renpy-6.99.10-sdk\renpy\ast.py", line 1368, in execute
+    next_node(renpy.game.context().lookup_return(pop=True))
+  File "C:\Users\0401787\Desktop\renpy-6.99.10-sdk\renpy\execution.py", line 523, in lookup_return
+    raise Exception("Could not find return label {!r}.".format(self.return_stack[-1]))
+Exception: Could not find return label (u'M:\\CSC-Final\\CSC Final\\CSC Final/game/script.rpy', 1464982341, 11).
+
+Windows-8-6.2.9200
+Ren'Py 6.99.10.1227
+CSC Final 0.0
